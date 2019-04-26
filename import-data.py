@@ -31,7 +31,7 @@ import pandas as pd
 
 url = ""
 
-df = read_csv(path,header=None) # read_csv assumes a header, set to None if applicable
+df = pd.read_csv(path,header=None) # read_csv assumes a header, set to None if applicable
 
 # See shape
 
